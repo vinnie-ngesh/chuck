@@ -1,0 +1,12 @@
+.joke {
+    padding: 5px;
+    border-bottom: 1px solid orange;
+    color: #333;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.joke:hover {
+    opacity: 0.7;
+}

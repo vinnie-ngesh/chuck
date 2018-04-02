@@ -1,0 +1,13 @@
+.categories {
+    position: relative;
+    background: #eee;
+}
+
+.categories__heading {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.categories__list {
+    list-style: none;
+}

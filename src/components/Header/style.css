@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px 0px 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+}
+
+.header__liked-btn {
+    width: 15%;
+    height: 32px;
+    border: none;
+    background: url('../../img/heart.png') no-repeat center;
+    background-size: 32px 32px;
+    opacity: .3;
+    cursor: pointer;
+}
+
+.header__liked-btn--active {
+    opacity: 1;
+}
+
+.header__search-bar-wrap {
+    width: 85%;
+}

@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: Consolas;
+  background: url('img/chuck.png')
+}
+
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
