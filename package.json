@@ -2,7 +2,7 @@
   "name": "chuck",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://graberzz.github.io/Chuck-Norris-Jokes",
+  "homepage": "https://vinnie-ngesh.github.io/chuck/",
   "dependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
