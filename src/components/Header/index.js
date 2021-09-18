@@ -3,7 +3,8 @@ import './style.css';
 import PropTypes from 'prop-types';
 import SearchBar from '../SearchBar';
 
-const Header = ({onSearch, onLikeClick, likedActive}) => (
+const Header = ({onSearch, onLikeClick, likedActive}) =>
+(
     <header className="header">
         <div className="header__search-bar-wrap">
             <SearchBar onSearch={onSearch} />
