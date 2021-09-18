@@ -2,7 +2,8 @@ import React from 'react';
 import './style.css';
 import PropTypes from 'prop-types';
 
-class SearchBar extends React.Component {
+class SearchBar extends React.Component 
+{
     static propTypes = {
         onSearch: PropTypes.func.isRequired,
     }
