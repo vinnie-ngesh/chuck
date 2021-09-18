@@ -3,7 +3,8 @@ const API_BASE = 'https://api.chucknorris.io/jokes';
 export const getCategories = () => fetch(`${API_BASE}/categories`)
                                    .then(d => d.json());
 
-export const getRandomJoke = (category) => {
+export const getRandomJoke = (category) => 
+{
     const query = category ? `?category=${category}` : '';
 
     return fetch(`${API_BASE}/random${query}`).then(d => d.json());
