@@ -8,6 +8,7 @@ const Category = ({ title, onClick }) => (
     </li>
 );
 
+
 Category.propTypes = {
     title: PropTypes.string.isRequired,
     onClick: PropTypes.func.isRequired,
