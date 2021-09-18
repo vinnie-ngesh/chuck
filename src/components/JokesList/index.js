@@ -3,7 +3,8 @@ import './style.css';
 import PropTypes from 'prop-types';
 import Joke from '../Joke';
 
-const JokesList = ({ jokes, onJokeClick }) => (
+const JokesList = ({ jokes, onJokeClick }) => 
+(
     <ul className="jokes-list">
         {jokes.map((joke, index) => <Joke
                                         key={index}
