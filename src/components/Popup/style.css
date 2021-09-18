@@ -12,7 +12,8 @@
     animation: popup 1 1s linear;
 }
 
-.popup--like {
+.popup--like 
+{
     background-image: url('../../img/heart.png');
 }
 

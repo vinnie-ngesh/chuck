@@ -5,7 +5,8 @@ import { getCategories } from '../../API';
 import Category from '../Category';
 import Spinner from '../Spinner';
 
-class CategoriesList extends React.Component {
+class CategoriesList extends React.Component 
+{
     state = {
         categories: [],
         fetching: false,

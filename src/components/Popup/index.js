@@ -3,7 +3,8 @@ import './style.css';
 import PropTypes from 'prop-types';
 
 const Popup = ({ visible, type }) => {
-    if (!visible) {
+    if (!visible)
+    {
         return null;
     }
 

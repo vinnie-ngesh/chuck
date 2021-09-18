@@ -8,7 +8,8 @@ import Spinner from './components/Spinner';
 import Popup from './components/Popup';
 
 
-class App extends React.Component {
+class App extends React.Component 
+{
     state = {
         jokes: [],
         likedJokes: [],

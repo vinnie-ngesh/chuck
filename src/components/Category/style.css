@@ -6,7 +6,8 @@
     transition: all .3s;
 }
 
-.category:hover {
+.category:hover
+{
     opacity: .7;
 }
 

@@ -8,7 +8,8 @@
     color: #fff;
 }
 
-.header__liked-btn {
+.header__liked-btn 
+{
     width: 15%;
     height: 32px;
     border: none;

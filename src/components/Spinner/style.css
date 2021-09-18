@@ -4,7 +4,8 @@
     width: 64px;
     height: 64px;
   }
-  .lds-ring div {
+  .lds-ring div 
+{
     box-sizing: border-box;
     display: block;
     position: absolute;
